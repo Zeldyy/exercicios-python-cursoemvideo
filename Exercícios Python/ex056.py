@@ -2,7 +2,7 @@ somaidade = 0
 idade_homem_mais_velho = 0
 nome_homem_mais_velho = ''
 mulher_under20 = 0
-for c in range(1, 5):
+for c in range(1, 5): #o range para no segundo argumento, não passando por ele.
     nome = str(input('Digite o nome da {}ª Pessoa: '.format(c)))
     idade = int(input('Digite a idade da {}ª Pessoa: '.format(c)))
     sexo = str(input('Digite o sexo da {}ª Pessoa (m/f): '.format(c))).lower()
