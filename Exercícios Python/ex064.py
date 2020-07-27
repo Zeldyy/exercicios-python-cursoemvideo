@@ -1,6 +1,4 @@
-n = 0
-soma = 0
-c = 0
+n = soma = c = 0
 while n != 999:
     n = int(input('Digite o valor: (999 para parar) '))
     if n != 999:
